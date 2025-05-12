@@ -38,7 +38,7 @@ def forward_chaining(facts, rules, ordered_facts):
 
 # --- Execution starts here ---
 print("Initial fact:", facts)
-
+print()
 # Run the inference engine
 final_order = forward_chaining(facts, rules, ordered_facts)
 
